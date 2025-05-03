@@ -8,14 +8,14 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     // ===== BOT CORE SETTINGS =====
     SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
-    PREFIX: process.env.PREFIX || ".",         // Command prefix (e.g., "., / ! * - +")
-    BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",  // Bot's display name
+    PREFIX: process.env.PREFIX || "!",         // Command prefix (e.g., "., / ! * - +")
+    BOT_NAME: process.env.BOT_NAME || "𝓥𝓲𝓬𝓽𝓸𝓻",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     REPO: process.env.REPO || "https://github.com/mrfrankofcc/SUBZERO-MD",  // Bot's GitHub repo
 
     // ===== OWNER & DEVELOPER SETTINGS =====
     OWNER_NUMBER: process.env.OWNER_NUMBER || "2347050510935",  // Owner's WhatsApp number
-    OWNER_NAME: process.env.OWNER_NAME || "VICTOR",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || "𝓥𝓲𝓬𝓽𝓸𝓻",           // Owner's name
     DEV: process.env.DEV || "2347050510935",                     // Developer's contact number
     DEVELOPER_NUMBER: '263719647303@s.whatsapp.net',            // Developer's WhatsApp ID
 
@@ -29,7 +29,7 @@ module.exports = {
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
-    STICKER_NAME: process.env.STICKER_NAME || "SUBZERO-MD",     // Sticker pack name
+    STICKER_NAME: process.env.STICKER_NAME || "𝓥𝓲𝓬𝓽𝓸𝓻",     // Sticker pack name
     AUTO_STICKER: process.env.AUTO_STICKER || "false",          // Auto-send stickers?
     HEART_REACT: process.env.HEART_REACT || "false",
     OWNER_REACT: process.env.OWNER_REACT || "false",
@@ -53,7 +53,7 @@ module.exports = {
     FOOTER: process.env.FOOTER || "*© Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Sᴜʙᴢᴇʀᴏ*",  // Bot description
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",              // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",        // Show bot as always online?
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // React to status updates?
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false", // React to status updates?
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false", // VIEW to status updates?
     AUTO_BIO: process.env.AUTO_BIO || "false",
     WELCOME_GOODBYE: process.env.WELCOME_GOODBYE || "false",
