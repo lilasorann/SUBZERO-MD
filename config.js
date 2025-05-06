@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     // ===== BOT CORE SETTINGS =====
     SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
-    PREFIX: process.env.PREFIX || "!",         // Command prefix (e.g., "., / ! * - +")
+    PREFIX: process.env.PREFIX || ",",         // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || "𝓥𝓲𝓬𝓽𝓸𝓻",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     REPO: process.env.REPO || "https://github.com/mrfrankofcc/SUBZERO-MD",  // Bot's GitHub repo
@@ -46,11 +46,11 @@ module.exports = {
     ANTI_VV: process.env.ANTI_VV || "true",                     // Block view-once messages?
     DELETE_LINKS: process.env.DELETE_LINKS || "false",          // Auto-delete links?
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log",          // Log deleted messages (or 'same' to resend)
-    ANTI_BOT: process.env.ANTI_BOT || "true",
+    ANTI_BOT: process.env.ANTI_BOT || "false",
     PM_BLOCKER: process.env.PM_BLOCKER || "true",
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
-    FOOTER: process.env.FOOTER || "*© Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Sᴜʙᴢᴇʀᴏ*",  // Bot description
+    FOOTER: process.env.FOOTER || "*© Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ 𝓥𝓲𝓬𝓽𝓸𝓻*",  // Bot description
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",              // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",        // Show bot as always online?
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false", // React to status updates?
